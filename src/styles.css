@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+}
+.weather-app {
+    background: rgba(228, 222, 222, 0.8);
+    backdrop-filter: saturate(900%) blur(10px);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+.input-group-append{
+    background-color:rgb(129, 192, 92) ;
+    backdrop-filter: saturate(100%) blur(10px);
+}
+.weather-info {
+    text-align: center;
+}
+
+.weather-info p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: small;
+}
+#temperature {
+    padding-top: 10px;
+}
